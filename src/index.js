@@ -201,6 +201,10 @@ export default class Wallet extends EventEmitter {
     });
     return transactions;
   };
+
+  //
+  // Encrypt here
+  //
 }
 
 function isString(a) {
