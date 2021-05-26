@@ -202,9 +202,15 @@ export default class Wallet extends EventEmitter {
     return transactions;
   };
 
-  //
-  // Encrypt here
-  //
+  getEncryptionPublicKey = async () => {
+    return this._sendRequest('getEncryptionPublicKey', {});
+  };
+
+  decrypt = async ({ messages = [] }) => {
+    return this._sendRequest('decrypt', {
+      messages,
+    });
+  };
 }
 
 function isString(a) {

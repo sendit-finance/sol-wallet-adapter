@@ -1,5 +1,5 @@
 {
-  "name": "@project-serum/sol-wallet-adapter",
+  "name": "@sendit-finance/sol-wallet-adapter",
   "version": "0.1.8",
   "description": "Library to allow Solana dApps to use third-party wallets to sign transactions",
   "license": "Apache-2.0",
