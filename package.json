@@ -3,7 +3,7 @@
   "version": "0.1.9",
   "description": "Library to allow Solana dApps to use third-party wallets to sign transactions",
   "license": "Apache-2.0",
-  "repository": "project-serum/sol-wallet-adapter",
+  "repository": "sendit-finance/sol-wallet-adapter",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
