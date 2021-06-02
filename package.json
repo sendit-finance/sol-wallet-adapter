@@ -23,7 +23,7 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build",
     "release": "npm version patch",
-    "publish:npm": "npm run test && npm run release && npm publish --access public"
+    "npm:publish": "npm run test && npm run release && npm publish --access public"
   },
   "peerDependencies": {
     "@solana/web3.js": "^0.70.3"
