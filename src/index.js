@@ -211,6 +211,11 @@ export default class Wallet extends EventEmitter {
       messages,
     });
   };
+
+  focus = function () {
+    if (!_this._popup) return;
+    _this._popup.focus();
+  };
 }
 
 function isString(a) {
